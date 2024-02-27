@@ -25,7 +25,7 @@ namespace TallerSgbSantiagoEchavarriaP
             {
                 Console.WriteLine("El libro esta Disponible");
             }
-            else if(EstadoLibro[aux]==" ")
+            else if(EstadoLibro[aux]=="Prestado")
             {
                 Console.WriteLine("Libro No Disponible");
             }
@@ -34,6 +34,5 @@ namespace TallerSgbSantiagoEchavarriaP
         {
 
         }
-
     }
 }
