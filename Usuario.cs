@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace TallerSgbSantiagoEchavarriaP
 {
-    class Usuario
+    class Usuarios
     {
-        string[,] Usuarios = new string[100, 4];
+        string[] Usuario = new string[100 ];
+        int i, aux;
         public void CrearUsuario()
         {
-
+            Console.WriteLine("Creacion De Usuario");
+            Console.WriteLine("ingresa Nombre");
+            Usuario[aux] = Console.ReadLine();
         }
         public void ModificarUsusario()
         {
